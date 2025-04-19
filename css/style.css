@@ -205,15 +205,15 @@ footer{
   transform: rotate(15deg);
   animation: float1 1.5s ease-in-out infinite alternate;
   position:absolute;
-  width:100px;
-  right:0px;
+  width:90px;
+  right:00px;
   top:-50px;
 }
 #hello-kitty{
   transform: rotate(-15deg);
   animation: float1 1.5s ease-in-out infinite alternate;
   position:absolute;
-  left:-100px;
+  left:-90px;
   bottom:-100px;
 }
 #smart-hello-kitty{
