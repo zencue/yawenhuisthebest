@@ -171,13 +171,7 @@ footer{
  #main-content{
   overflow-y:scroll;
  }
- #hello-kitty{
-  transform: rotate(-15deg);
-  animation: float2 1.5s ease-in-out infinite alternate;
-  position:absolute;
-  right:-100px;
 
-}
 }
 
 #main-title{
@@ -213,21 +207,21 @@ footer{
   position:absolute;
   width:90px;
   right:00px;
-  top:-50px;
+  top:-80px;
 }
 #hello-kitty{
   transform: rotate(-15deg);
   animation: float1 1.5s ease-in-out infinite alternate;
   position:absolute;
-  left:-90px;
-  bottom:-100px;
+  left:-00px;
+  bottom:-110px;
 }
 #smart-hello-kitty{
   transform: rotate(-15deg);
   animation: float2 1.5s ease-in-out infinite alternate;
   position:absolute;
   left:-70px;
-  top:-50px;
+  top:-80px;
 }
 @keyframes float1 {
 	0% {
