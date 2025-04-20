@@ -21,8 +21,11 @@ var love = setInterval(function() {
         }
     });
 }, 500);
-
-
+const content = document.getElementById("main-content");
+content.style.height = window.innerHeight - 178+"px";
+console.log(window.innerHeight-180)
+console.log()
+console.log(content.style)
 const clickOnMe = document.getElementById("click-on-me");
 clickOnMe.onclick = (e)=>{
     const img = document.getElementById("secret-picture");

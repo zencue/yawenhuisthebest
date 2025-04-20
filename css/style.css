@@ -17,13 +17,14 @@ body{
     color:white;
     margin:0;
     padding:0;
+    
 }
 .bg_heart {
     position: relative;
-    top: 0;
+    bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden
  }
 
@@ -61,16 +62,16 @@ body{
 }
 
 @-webkit-keyframes love {
-  0%{top:110%}
+  0%{top:100%}
 }
 @-moz-keyframes love {
-  0%{top:110%}
+  0%{top:100%}
 }
 @-ms-keyframes love {
-  0%{top:110%}
+  0%{top:100%}
 }
 @keyframes love {
-  0%{top:110%}
+  0%{top:100%}
 }
 .ubuntu-medium-italic {
   font-family: "Ubuntu", sans-serif;
@@ -128,15 +129,14 @@ footer{
     position:relative
 }
 #main-content{
-  top:90px;
     min-width:100vw;
-    overflow:scroll;
-    height:calc(100%-90px);
+    top:90px;
     display:flex;
     align-items: center;
     justify-content: center;
-    overflow: scroll;
+    overflow-x:hidden;
     
+    position: absolute;
 }
 
 .arrow {
@@ -169,7 +169,7 @@ footer{
 
  }
  #main-content{
-  align-items: start;
+  overflow-y:scroll;
  }
  #hello-kitty{
   transform: rotate(-15deg);
@@ -179,6 +179,7 @@ footer{
 
 }
 }
+
 #main-title{
   display: flex;
   align-items: center;
